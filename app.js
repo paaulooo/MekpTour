@@ -51,9 +51,7 @@ app.get('/contact', (req, res) => {
 
 
 app.use((req, res) => {
-    res.status(404);
-    res.send('<h2>ESSA PAGINA NÃO EXISTE!!!</h2>');
-
+    res.status(404).sendFile('error.html', {root: './public'});
 })
 
 //SERVIDOR TA ON?

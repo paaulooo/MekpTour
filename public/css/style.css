@@ -32,7 +32,7 @@ body {
 .menu > .menu1 >  ul {
     padding: 0;
     list-style: none;
-    gap: 70px;
+    gap: 20px 70px;
     margin-right: 15px;
 }
 .listmenu{
@@ -56,7 +56,29 @@ body {
 
 
 /* MEDIA Q MENU*/
-
+@media screen and (max-width:480px) {
+    .HEADER{
+        height: 100px;
+        align-content: center;
+    }
+    .menu{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .menu > .menu1 >  ul {
+        padding-left: 34.3px;
+        list-style: none;
+        gap: 25px;
+        margin-right: 15px;
+    }
+    .listmenu{
+        display: flex;
+        flex-direction: row;
+    }
+    .menu a{
+        font-size: 19px !important;
+    }
+}
 
 
 .slider {

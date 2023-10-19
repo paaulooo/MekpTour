@@ -218,6 +218,10 @@ body {
     background-color: rgb(0, 0, 0);
     display: flex;
     margin: auto;
+    justify-content: space-between;
+}
+.about > .texto{
+    margin: auto;
 }
 .about img {
     height: 600px;
@@ -227,17 +231,12 @@ body {
 }
 .about h2{
     font-size: 30px;
-    position: relative;
-    left: 25%;
-    top: 22%;
-    
+   
 }
 .about p {
     width: 600px;
     font-size: 21px;
-    position: relative;
-    left: 4.8%;
-    top: 40%;
+    
     text-align: center
 }
 .about h2, p{
@@ -245,7 +244,69 @@ body {
     text-align: center;
     color: #e1dbdb;
 }
+@media screen and  (max-width: 480px) {
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+    .about > .texto{
+        margin: auto;
+    }
+    .about img{
+        height: 300px;
+        margin: auto;
+    }
+    .about h2{
+        position: static;
 
+    }
+    .about p{
+        margin-top: 18px;
+        margin-left: 20px ;
+        width: 340px;
+        font-size: 14px;
+        position: static;
+    }
+
+}
+@media screen and (max-width:768px) {
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+    .about > .texto{
+        margin: auto;
+    }
+    .about img{
+        height: 300px;
+        margin: auto;
+    }
+    .about p{
+        margin-top: 18px;
+        margin-left: 20px ;
+        width: 340px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:992px) {
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+    .about > .texto{
+        margin: auto;
+    }
+    .about img{
+        height: 300px;
+        margin: auto;
+    }
+    .about p{
+        margin-top: 18px;
+        margin-left: 20px ;
+        width: 340px;
+        font-size: 14px;
+    }
+}
 
 
 /*FOOTER!!*/
@@ -281,7 +342,7 @@ body {
 .footer a{
     position: relative;
     left: 90%;
-    top: -30%;
+    top: -33%;
 }
 
 .i:hover{

@@ -273,3 +273,12 @@ body {
     color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.footer a{
+    position: relative;
+    left: 90%;
+    top: -30%;
+}
+
+.i:hover{
+    color: #ff964e;
+}

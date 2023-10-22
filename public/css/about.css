@@ -137,10 +137,9 @@ body {
     }
     .about p{
         margin-top: 18px;
-        margin-left: 20px ;
-        width: 340px;
-        font-size: 14px;
-        position: static;
+        width: 330px;
+        font-size: 15px;
+        
     }
 
 }
@@ -177,7 +176,8 @@ body {
     }
     .about p{
         margin-top: 18px;
-        width: 350px;
+        margin-left: 20px ;
+        width: 340px;
         font-size: 14px;
     }
 }

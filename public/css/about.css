@@ -99,15 +99,16 @@ body {
 }
 .about h2 {
   font-size: 30px;
+  margin-bottom: 30px;
 }
 .about p {
   width: 600px;
   font-size: 21px;
-
-  text-align: center;
+  line-height: 34px;
+  text-align: justify;
+  word-spacing: -3px;
 }
-.about h2,
-p {
+.about h2, p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   color: #e1dbdb;

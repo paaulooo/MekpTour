@@ -6,7 +6,7 @@ setInterval(function () {
 }, 5000);
 
 function setInitialRadio(clickedCount) {
-  count = clickedCount; // Atualiza o valor da variável "count" com o radio clicado
+  count = clickedCount;
 }
 
 function nextImage() {

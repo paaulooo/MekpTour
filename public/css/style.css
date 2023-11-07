@@ -380,20 +380,23 @@ body {
   position: relative;
   margin: auto;
 }
-.znorte > .botao{
+.znorte > .botao button{
   margin-top: 20px;
-  margin-bottom: 20px;
   width: 250px;
   height: 55px;
   background-color: #d26e2c;
-  padding: 13px;
+  border: 0px;
   border-radius: 20px;
-}
-.znorte > .botao > a{
-  font-size: 19px;
-  color:rgb(255, 255, 255);
+  transition: 1s;
   text-decoration: none;
+  color: #fff;
+  font-size: 19px;
 }
+.znorte button:hover{
+  cursor: pointer;
+  transform: scale(110%);
+}
+
 @media screen and (max-width: 767px) {
   .znorte p {
     width: auto;
@@ -425,12 +428,16 @@ body {
   color: #fff;
   font-size: 19px;
 }
-.planos button > a{
-  
-}
 .planos button:hover{
   cursor: pointer;
   transform: scale(110%);
+}
+@media screen and (max-width: 480px) {
+  .planos h2{
+    margin-top: 20px;
+    font-size: 25px;
+    color: white;
+  }
 }
   
 .conteudo {
@@ -511,7 +518,9 @@ body {
   .conteudo .form {
     width: 100%;
     margin: auto;
+    
   }
+  
 }
 @media screen and (max-width: 767px) {
   .conteudo .form {
@@ -537,8 +546,6 @@ body {
 
 .footer footer {
   align-items: center;
-  position: absolute;
-  bottom: 0;
 }
 
 .footer h2 {
@@ -565,4 +572,14 @@ body {
 
 .i:hover {
   color: #ff964e;
+}
+@media screen and (max-width: 480px) {
+  .footer{
+   margin-top: 100px;
+  }
+}
+@media screen and (max-width: 807px) {
+  .footer{
+    margin-top: 100px;
+  }
 }

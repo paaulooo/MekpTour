@@ -82,31 +82,39 @@ body {
 .contato {
   background-color: rgb(0, 0, 0);
   width: 100%;
-  height: 900px;
+  height: 700px;
 }
 .contato > .box {
-  width: 600px;
+  width: 800px;
   height: 700px;
-  background-color: rgb(168, 131, 75);
+  background-color: rgb(0, 0, 0);
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
+  margin-top: 100px;
   border-radius: 26px 26px 26px 26px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contato h2,
 p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
   padding-top: 90px;
   color: white;
 }
 .contato h2 {
   font-size: 40px;
+  margin-top: 60px;
 }
 .contato p {
+  margin-top: 30px;
+  width: 420px;
   font-size: 25px;
+  border-bottom: 2px solid #fff;
 }
 
 @media screen and (max-width: 480px) {
@@ -117,11 +125,10 @@ p {
   }
   .contato > .box {
     width: 350px;
-    height: 450px;
-    background-color: rgb(168, 131, 75);
+    height: 350px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 100px;
     border-radius: 26px 26px 26px 26px;
   }
 
@@ -134,12 +141,44 @@ p {
     color: white;
   }
   .contato h2 {
-    font-size: 18px;
+    font-size: 28px;
   }
   .contato p {
-    font-size: 12px;
+    font-size: 22px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .contato {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 500px;
+  }
+  .contato > .box {
+    width: 350px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 26px 26px 26px 26px;
+  }
+
+  .contato h2,
+  p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding-top: 60px;
+    color: white;
+  }
+  .contato h2 {
+    font-size: 28px;
+  }
+  .contato p {
+    font-size: 22px;
+  }
+}
+
 
 /*FOOTER!!*/
 

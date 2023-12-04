@@ -145,18 +145,24 @@ section button:hover{
 }
 
 @media screen and (max-width: 480px) {
+  section{
+    margin-top: 30px;
+    display: block;
+  }
   section .image{
     display: none;
   }
   section .questions{
     margin: auto;
     margin-left: 10px; 
+    min-width: auto;
+    max-width: 480px;
   }
   section p{
-    font-size: 15px;
+    font-size: 18px;
   }
   section label{
-    font-size: 13px;
+    font-size: 15px;
   }
   section button{
     position: relative;
@@ -167,11 +173,14 @@ section button:hover{
     margin-left: 10px;
   }
 }
-@media screen and (max-width: 1025px){
+@media screen and (max-width: 1025px) and (min-width: 481px){
+  section{
+    display: block;
+  }
   section .image{
     display: none;
   }
-  
+
   section p{
     font-size: 25px;
   }

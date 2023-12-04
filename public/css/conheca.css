@@ -80,73 +80,107 @@
   }
 }
 
-/*CONTEUDO*/
-.content {
-    width: 100%;
-    background-color: #0b0b0b;
-    height: 2000px;
+/*Formulario*/
+#question {
+  margin-top: 90px;
+}
+section p{
+  font-size: 20px;
+}
+section{
+  
+  width: 100%;
+  height: 1600px;
+  display: flex;
+  justify-content: space-around;
+}
+section .questions{
+  color: #fff;
+  margin-left: 70px;
+  margin-top: 100px;
+  min-width: 600px;
+}
+section .image{
+  margin-left: 200px;
+  
+}
+section .image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 16/9;
+  
+}
+section h1{
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+section h1 > #dot1{
+  color: #ff964e;
+}
+section h1 > #dot2{
+  color: #ffff4e;
+}
+section h1 > #dot3{
+  color: #4eff54;
+}
+section input, label{
+  margin-top: 30px;
+}
+section button{
+  margin-top: 40px;
+  width: 250px;
+  height: 55px;
+  background-color: #d26e2c;
+  border: 0px;
+  border-radius: 20px;
+  transition: 1s;
+  text-decoration: none;
+  color: #fff;
+  font-size: 19px;
+}
+section button:hover{
+  cursor: pointer;
+  transform: scale(110%);
 }
 
-.content .freguesia{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    background-color: #080808;
-    height: 1400px;
+@media screen and (max-width: 480px) {
+  section .image{
+    display: none;
+  }
+  section .questions{
+    margin: auto;
+    margin-left: 10px; 
+  }
+  section p{
+    font-size: 15px;
+  }
+  section label{
+    font-size: 13px;
+  }
+  section button{
+    position: relative;
+    left: 80px;
+    margin-top: 70px;
+  }
+  section h1{
+    margin-left: 10px;
+  }
 }
-.content .freguesia .casadacultura{
-    display: inline-flex;
-}
-.content .freguesia .casadacultura > img{
-    height: 400px;
-    border-radius: 0px 20px 20px 0px;
-    margin-top: 50px;
-}
-.content .freguesia .casadacultura> .description{
-    margin-left: 300px;
-    margin-top:130px;
-    width: 500px;
-    color: #fff;
-    padding-bottom: 200px;
-}
-.casadacultura .description h2{
-    text-align: center;
-    font-size: 35px;
-    margin-bottom: 30px;
-
-}
-.casadacultura .description p{
-    text-align: justify;
-    word-spacing: 5px;
-    line-height: 25px;
-}
-
-.content .freguesia .bruno > img{
-    height: 400px;
-    border-radius: 20px 0px 0px 20px;
-    margin-top: 50px;
-}
-.content .freguesia .bruno{
-    flex-direction: row-reverse;
-    display: inline-flex;
-}
-.bruno .description{
-    margin-top: 130px;
-    margin-right: 350px;
-    width: 500px;
-    color: #fff;
-    padding-bottom: 200px;
-}
-.bruno .description h2{
-    text-align: center;
-    font-size: 35px;
-    margin-bottom: 30px;
-
-}
-.bruno .description p{
-    text-align: justify;
-    word-spacing: 5px;
-    line-height: 25px;
+@media screen and (max-width: 1025px){
+  section .image{
+    display: none;
+  }
+  
+  section p{
+    font-size: 25px;
+  }
+  section label{
+    font-size: 20px;
+  }
+  section button{
+    margin-top: 70px;
+  }
 }
 
 /*FOOTER!!*/
@@ -155,7 +189,7 @@
   height: 150px;
   width: 100%;
   background-color: rgb(17, 17, 17);
-  margin-top: 210px;
+  margin-top: 0px;
 }
 
 .footer footer {

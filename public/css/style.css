@@ -452,11 +452,6 @@ body {
   background-color: #000000;
 }
 
-@media screen and (max-width: 480px) {
-  .conteudo > .box {
-    height: 3.5%;
-  }
-}
 .conteudo .text {
   background-color: rgb(2, 2, 2);
   font-size: 20px;

@@ -135,13 +135,6 @@ body {
   font-size: 34px;
 }
 
-.slide h2::first-letter {
-  color: rgb(255, 142, 66);
-  
-}
-
-
-
 .slide p {
   position: absolute;
   top: 90px;
@@ -413,14 +406,14 @@ body {
   background-color: rgb(3, 3, 3);
 }
 .planos h2{
-  margin-top: 20px;
+  margin-top: 45px;
   font-size: 33px;
   color: white;
 }
 .planos button{
   margin-top: 40px;
-  width: 250px;
-  height: 55px;
+  width: 200px;
+  height: 45px;
   background-color: #d26e2c;
   border: 0px;
   border-radius: 40px;
@@ -490,7 +483,6 @@ body {
   margin: 33px;
   height: 45px;
   width: 200px;
-  font-weight: bolder;
   border: 1px solid #d26e2c;
   border-radius: 40px;
   background-color: #d26e2c;

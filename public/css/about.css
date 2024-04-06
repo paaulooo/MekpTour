@@ -160,6 +160,8 @@ body {
   }
   .about > .texto {
     margin: auto;
+    position: relative;
+    top: -300px;
   }
   .about img {
     height: 300px;
@@ -179,7 +181,6 @@ body {
   height: 150px;
   width: 100%;
   background-color: rgb(17, 17, 17);
-  margin-top: 210px;
 }
 
 .footer footer {
